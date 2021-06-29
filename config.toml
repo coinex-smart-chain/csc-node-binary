@@ -17,7 +17,7 @@ EVMInterpreter = ""
 [Eth.Miner]
 GasFloor = 30000000
 GasCeil = 42000000
-GasPrice = 100000000000
+GasPrice = 500000000000
 Recommit = 10000000000
 Noverify = false
 
@@ -26,7 +26,7 @@ Locals = []
 NoLocals = true
 Journal = "transactions.rlp"
 Rejournal = 3600000000000
-PriceLimit = 100000000000
+PriceLimit = 500000000000
 PriceBump = 10
 AccountSlots = 16
 GlobalSlots = 4096
